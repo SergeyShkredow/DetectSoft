@@ -1,0 +1,48 @@
+{
+  "name": "LS",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "node_modules/.bin/selenium-standalone install",
+    "selenium": "node_modules/.bin/selenium-standalone start",
+    "test": "wdio wdio.conf.js",
+    "lint": "eslint test/**/*.js",
+    "lint-staged": "lint-staged",
+    "lint:fix": "eslint --fix test/. "
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "chai": "^4.2.0",
+    "deasync": "^0.1.13",
+    "electron": "^4.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "fast-html-parser": "^1.0.1",
+    "lint-staged": "^7.1.2",
+    "mocha": "*",
+    "quoted-printable": "^1.0.1",
+    "selenium-standalone": "^6.14.0",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-sauce-service": "~0.1",
+    "webdriverio": "^4.14.0"
+  },
+  "author": "Shkredov",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "wdio-chromedriver-service": "^0.1.3",
+    "wdio-webcomponents": "^1.1.0"
+  }
+}
