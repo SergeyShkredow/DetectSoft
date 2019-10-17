@@ -1,24 +1,14 @@
 import Dashboard from '../pages/test/dashboard.page'
-import Order from '../pages/test/order.page'
+import Order from '../pages/test/registration.page'
 import {getNewTasks} from '../../utils'
 
-describe('Order', () => {
+describe('registration', () => {
     before(() => {
         browser.windowHandleFullscreen()
     })
-    beforeEach(()=>{
-        // Go to user dashboard
+
+    it('Success registration with generation password', () => {
         Dashboard.logo.waitForVisible()
     })
-    it('Load page', () => {
-        Dashboard.logo.waitForVisible()
-    })
-    it('Choose product', () => {
-        Dashboard.chooseProduct()
-    })
-    it('Confirm order', () => {
-        Dashboard.chooseProduct()
-        Order.confirmOrder()
-        getNewTasks()
-    })
+
 })

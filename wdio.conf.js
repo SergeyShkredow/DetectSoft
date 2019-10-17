@@ -118,7 +118,7 @@ exports.config = {
   // Jasmine: `$ npm install jasmine`
   // Cucumber: `$ npm install cucumber`
   framework: 'mocha',
-  baseUrl: 'https://adriano.com.ua',
+  baseUrl: 'https://mail.bigmir.net',
   //
   // Test reporter for stdout.
   // The following are supported: dot (default), spec and xunit

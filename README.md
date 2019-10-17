@@ -13,12 +13,3 @@ yarn selenium
 
 ### START TEST (in new terminal)
 yarn test   
-
-### ALLURE REPORTS 
------------------
-### clear old result
-yarn pretest
-
-### generate new report
-yarn report
-
