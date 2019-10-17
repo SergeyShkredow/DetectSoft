@@ -9,4 +9,5 @@ class DashboardPage extends Page {
     super.open('/')
   }
 }
+
 export default new DashboardPage()
